@@ -1,0 +1,9 @@
+[package]
+name = "tax-calculate"
+version = "0.1.0"
+edition = "2021"
+description = "个人所得税与个人养老金抵扣计算器"
+
+[dependencies]
+eframe = { version = "0.29", default-features = false, features = ["default_fonts", "glow"] }
+egui_plot = "0.29"
